@@ -9,7 +9,9 @@ import org.junit.runner.RunWith;
         features = {"features"},
         glue = {"steps"},
         plugin = {"pretty", "html:Report1"},
-        dryRun = true
+        dryRun = true,
+        monochrome = true,
+        tags = "@P1"
 )
 public class TestRunner {
 

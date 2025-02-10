@@ -1,5 +1,6 @@
 Feature: Ebay Home Page Scanrios
 
+  @P1
   Scenario: Advanced Search Link
     //Given, When, And, Then
 
